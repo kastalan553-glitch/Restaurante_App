@@ -8,16 +8,16 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
 
     lateinit var btnCerrar: Button
-    lateinit var btnIngresar: Button
+    lateinit var btnContinuar: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnCerrar = findViewById(R.id.btnCerrar)
-        btnIngresar = findViewById(R.id.btnLogin)
+        btnContinuar = findViewById(R.id.btnContinuar)
 
         //Eventos
-        btnIngresar.setOnClickListener {
+        btnContinuar.setOnClickListener {
             llamarLogin()
         }
 

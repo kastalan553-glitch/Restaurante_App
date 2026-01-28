@@ -32,10 +32,10 @@
         app:strokeWidth="2dp" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnContinuar"
         android:layout_width="140dp"
         android:layout_height="60dp"
-        android:text="Ingresar"
+        android:text="Continuar"
         android:textAllCaps="false"
         android:textSize="18sp"
         app:backgroundTint="#FF5722"
